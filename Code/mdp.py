@@ -9,7 +9,7 @@ class MarkovDecisionProcess:
     """A Markov Decision Process, defined by an states, actions, transition model and reward function."""
 
     def __init__(self,  transition={}, reward={}, method = 1, gamma=.99, epsilon = 0.001):
-        #collect all nodes from the transition models
+        ###########collect all nodes from the transition models
         self.states = transition.keys()
         #initialize transition
         self.transition = transition
